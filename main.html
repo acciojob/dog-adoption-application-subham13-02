@@ -8,6 +8,42 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form  method="post" action="file" name="form" id="form">
+        <h1>Dog Adoption Application</h1>
+        <div>
+            <label for="name">Names</label><br>
+	            <input type="text" name="name" id="name" placeholder="Name">
+        </div>
+		
+		<div>
+            <label for="phone">Phone</label><br>
+            <input type="numbe" name="phone" id="phone" placeholder="Phone Number">
+		</div>
+
+		<div>
+            <label for="adress"">Address</label><br>
+	            <input type="text" name="address" id="address" placeholder="Address">
+        </div>
+
+		<div>
+            <label for="checkbox"">Have you ever lived with a Dog before?</label>
+	        <input type="checkbox" name="checkbox" id="checkbox" >
+        </div>
+		
+		 <div>
+			<label for="multiSelect">Please select your preferred breeds</label>
+            <select name="multiSelect" id="multiSelect">
+				<option value="tommy">tommy</option>
+                <option value="golden retriver">golden retriver</option>
+                <option value="german">german</option>
+            </select>
+		</div>
+		
+        
+        <div>
+            <button type="submit" name="submit" id="submit" >Submit</button>
+        </div>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
